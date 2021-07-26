@@ -7,7 +7,7 @@ require('dotenv').config();
 
 //connexion database with server (bsh njib ladress)
 //const mongoUrl = "process.env.MONGO_URL"
-const mongoUrl = "mongodb+srv://chiraz123:chiraz123@cluster0.b0uuk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const mongoUrl = "process.env.MONGO_URL"
 
 //parse the data
 //ken man7outesh app.use(express.json()) moush 9a3ed yrecuperi fil valeur
